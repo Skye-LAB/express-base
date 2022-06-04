@@ -1,0 +1,8 @@
+# node modules
+/node_modules/
+
+# lock files
+yarn.lock
+
+# config files
+/configs/db.config.js

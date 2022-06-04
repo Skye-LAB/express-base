@@ -1,0 +1,23 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "template for expressjs application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "Skye-LAB",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
