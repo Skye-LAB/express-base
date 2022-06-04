@@ -28,6 +28,8 @@ app.get("/", (req, res) => {
   });
 });
 
+require("./app/routers/user.route")(app);
+
 const PORT = 8000;
 app.listen(PORT, () => {
   console.log(`server is running on http://localhost:${PORT}`);
