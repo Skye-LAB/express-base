@@ -3,6 +3,8 @@
 
 # lock files
 yarn.lock
+pnpm-lock.yaml
 
 # config files
-/configs/db.config.js
+# /configs/db.config.js
+.env
