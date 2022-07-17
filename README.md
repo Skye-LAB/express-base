@@ -14,5 +14,5 @@ There is only *user* endpoint.
 | :---:    | :------:           | :----: | :---: |
 | Create   | `/api/users/`      | POST   | `{ username, email, password }` |
 | Login    | `/api/users/login` | POST   | `{ email, password }` |
-| Find One | `/api/users/:id`   | GET    | `{ header: Auth-Token, params: id }` |
-| Find All | `/api/users/`      | GET    | `{ header: Auth-Token` |
+| Find One | `/api/users/:id`   | GET    | `{ header: { Auth-Token }, params: { id } }` |
+| Find All | `/api/users/`      | GET    | `{ header: { Auth-Token } }` |
